@@ -1,0 +1,15 @@
+/* Style specyficzne dla WooCommerce */
+.woocommerce-products-header {
+    margin-bottom: 40px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.woocommerce-Price-amount {
+    color: #2c3338;
+    font-weight: 700;
+}

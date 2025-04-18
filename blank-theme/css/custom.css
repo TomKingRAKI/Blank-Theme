@@ -1,0 +1,27 @@
+/* Własne style CSS */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Widgety */
+.widget {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+/* WooCommerce */
+.woocommerce-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+    .woocommerce-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

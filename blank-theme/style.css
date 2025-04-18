@@ -1,0 +1,36 @@
+/*
+Theme Name: Blank Theme
+Author: Tomasz Szmajda
+Author URI: https://tomasz-szmajda-portfolio.netlify.app
+Description: Ultra-lekki motyw dla Elementor i Woocommerce
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blank-theme
+*/
+
+/* Reset podstawowych styli */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+.alignwide {
+    margin-left: calc(-10vw);
+    margin-right: calc(-10vw);
+    width: 80vw;
+    max-width: 100%;
+}
+
+.alignfull {
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    width: 100vw;
+    max-width: 100vw;
+}
