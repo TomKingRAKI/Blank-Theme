@@ -90,19 +90,19 @@ style.css - Theme metadata + critical CSS
 
 📂 File Structure
 Copy
-blank-elementor-theme/
-├── css/                    # Style modules
-│   ├── custom.css          # Global styles
-│   └── woocommerce.css     # WooCommerce overrides
-├── inc/                    # Functionality
-│   ├── woo-integration.php # WooCommerce config
-│   └── elementor-hooks.php # Elementor filters
-├── templates/              # Theme templates
-│   ├── elementor-header.php
-│   └── elementor-footer.php
-├── functions.php           # Theme core
-├── screenshot.png          # Theme preview
-└── readme.md               # This file
+blank-elementor-theme/ <br>
+├── css/                    # Style modules <br>
+│   ├── custom.css          # Global styles <br>
+│   └── woocommerce.css     # WooCommerce overrides <br>
+├── inc/                    # Functionality <br>
+│   ├── woo-integration.php # WooCommerce config <br>
+│   └── elementor-hooks.php # Elementor filters <br>
+├── templates/              # Theme templates <br>
+│   ├── elementor-header.php <br>
+│   └── elementor-footer.php <br>
+├── functions.php           # Theme core <br>
+├── screenshot.png          # Theme preview <br>
+└── readme.md               # This file <br>
 🤝 Contributing
 Fork repository
 
